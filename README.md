@@ -88,21 +88,3 @@ Read [03 — Power system](docs/03-power-system.md) first. Three mistakes in thi
 3. **Powering the IR array at 5V** — same problem, on five pins at once
 
 All three are solved in the docs. None are optional. See the [warning summary](docs/10-troubleshooting.md#2-warning-summary).
-
----
-
-## Repository layout
-
-```
-docs/            Build documentation
-docs/diagrams/   SVG wiring and layout diagrams
-firmware/car/          Arduino sketch — car controller
-firmware/dispenser/    Arduino sketch — dispenser controller
-firmware/esp32-cam/    Arduino sketch — camera server
-hardware/        Pinout reference
-pc/              Flask control page and QR decoder
-```
-
-## Status
-
-Documentation complete. Firmware in progress.
