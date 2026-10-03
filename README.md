@@ -1,4 +1,4 @@
-# Smart Hospital Assistant Robot
+# Smart Hospital Assistant Robot 🤖
 
 Autonomous medicine delivery using two independent units coordinated over Wi-Fi.
 
@@ -88,3 +88,5 @@ Read [03 — Power system](docs/03-power-system.md) first. Three mistakes in thi
 3. **Powering the IR array at 5V** — same problem, on five pins at once
 
 All three are solved in the docs. None are optional. See the [warning summary](docs/10-troubleshooting.md#2-warning-summary).
+
+BRAC University CSE461 Group Project !
