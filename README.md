@@ -4,11 +4,11 @@ Autonomous medicine delivery using two independent units coordinated over Wi-Fi.
 
 A line-following **car** collects medicine from a fixed **glove-box dispenser**, transports it to a patient bed, verifies the bed by QR code, and releases the medicine only after verification. It re-locks automatically after 30 seconds and returns to the station.
 
-![Delivery cycle](docs/diagrams/delivery-cycle.svg)
+![Delivery cycle](Diagrams/delivery-cycle.svg)
 
 ### Car unit — complete wiring
 
-![Complete car wiring](docs/diagrams/car-wiring-complete.svg)
+![Complete car wiring](Diagrams/car-wiring-complete.svg)
 
 ---
 
@@ -26,7 +26,7 @@ A line-following **car** collects medicine from a fixed **glove-box dispenser**,
 | [08 — Software and API](docs/08-software-and-api.md) | REST endpoints, QR verification, state machine, failure modes |
 | [09 — Assembly and calibration](docs/09-assembly-and-calibration.md) | Bring-up order and every calibration procedure |
 | [10 — Troubleshooting](docs/10-troubleshooting.md) | 22 symptoms mapped to causes and fixes, plus all warnings |
-| [Pinout reference](hardware/pinout-reference.md) | One-page GPIO map for both boards |
+| [Pinout reference](Docs/pinout-reference.md) | One-page GPIO map for both boards |
 | [ESP32-CAM setup guide](firmware/esp32-cam/README.md) | Flashing, network, and the five camera bring-up tests |
 
 ---
@@ -63,7 +63,7 @@ No wires run between the two units.
 
 The QR is the **only** thing that identifies a location. There is no counter and no position estimate, so the car cannot silently drift to the wrong bed.
 
-![Track layout](docs/diagrams/track-layout.svg)
+![Track layout](Diagrams/track-layout.svg)
 
 ---
 
